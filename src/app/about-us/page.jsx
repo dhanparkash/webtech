@@ -1,9 +1,16 @@
-import React from 'react'
+import Aboutus from "@/components/home-page/about-us";
+import Hero from "@/components/home-page/hero";
+import Clientsay from "@/components/home-page/cientsay";
+import Image from "next/image";
+import Form from "@/components/home-page/form";
 
-const Page = () => {
+export default function Home() {
   return (
-    <div className=''>About</div>
-  )
+    <div>
+      <Hero/>
+      <Aboutus/>
+      <Clientsay/>
+      <Form/>
+    </div>
+  );
 }
-
-export default Page

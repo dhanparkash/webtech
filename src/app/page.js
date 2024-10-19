@@ -1,14 +1,15 @@
-import Carasoul from "@/components/home-page/carasoul";
+import Aboutus from "@/components/home-page/about-us";
 import Hero from "@/components/home-page/hero";
-import Whychooseus from "@/components/home-page/whychooseus";
+import Clientsay from "@/components/home-page/cientsay";
 import Image from "next/image";
+import Form from "@/components/home-page/form";
 
 export default function Home() {
   return (
     <div>
       <Hero/>
       <div className="bg-gray-200 py-10">
-        <h2 className="text-black text-4xl text-center">Srvices</h2>
+      <h2 className="text-indigo-700 text-4xl font-bold font-manrope leading-normal text-center">Services</h2>
         <div className="columns-3 lg:px-12 py-6">
           <div className="flex flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg shadow-md dark:bg-gray-50 dark:text-gray-800">
             <div>
@@ -63,8 +64,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Whychooseus/>
-      <Carasoul/>
+      <Aboutus/>
+      <Clientsay/>
+      <Form/>
     </div>
   );
 }
