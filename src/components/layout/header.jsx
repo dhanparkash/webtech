@@ -12,7 +12,7 @@ const Header = () => {
     <nav className="bg-white border-gray-200  lg:px-12 py-6 dark:bg-gray-800">
         <div className="flex flex-wrap justify-between items-center">
             <Link href="/" className="flex items-center">
-                <Image src="/webtechlogo.png"  width={150} height={60} alt="logo"/>
+                <Image src="/black-logo.webp"  width={150} height={60} alt="logo"/>
             </Link>
             
             <div className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
@@ -24,10 +24,10 @@ const Header = () => {
                         <Link href="/about-us"  className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${path === '/about-us' ? "bg-indigo-700 text-white" : "text-indigo-700"}`}>About Us</Link>
                     </li>
                     <li>
-                        <Link href="#"  className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${path === '/features' ? "bg-indigo-700 text-white" : "text-indigo-700"}`}>Features</Link>
+                        <Link href="/features"  className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${path === '/features' ? "bg-indigo-700 text-white" : "text-indigo-700"}`}>Features</Link>
                     </li>
                     <li>
-                        <Link href="#" className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${path === '/team' ? "bg-indigo-700 text-white" : "text-indigo-700"}`}>Team</Link>
+                        <Link href="/team" className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${path === '/team' ? "bg-indigo-700 text-white" : "text-indigo-700"}`}>Team</Link>
                     </li>
                     <li>
                         <Link href="/contact-us" className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${path === '/contact-us' ? "bg-indigo-700 text-white" : "text-indigo-700"}`}>Contact Us</Link>

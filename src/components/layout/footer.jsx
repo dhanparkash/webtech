@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="flex flex-wrap lg:px-12 py-6 bg-black text-white">
       <div className="w-full sm:w-3/12 md:w-3/12">
       <a href="" className="flex items-center">
-                <Image src="/webtechlogo.png"  width={150} height={60} alt="logo"/>
+                <Image src="/white-logo.webp"  width={150} height={60} alt="logo"/>
             </a>
       </div>
       <div className="w-full sm:w-3/12 md:w-3/12">

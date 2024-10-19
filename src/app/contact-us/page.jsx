@@ -6,9 +6,8 @@ import Contacthero from "@/components/home-page/contacthero";
 export default function Home() {
   return (
     <div>
-      <Contacthero/>
-      <Clientsay/>
-      <Form/>
+       <Form/>
+      <Clientsay/>    
     </div>
   );
 }
