@@ -22,8 +22,8 @@ const Header = () => {
   //   }
   return (
     <>
-      <header>
-        <nav className="bg-white border-gray-200  lg:px-12 py-6 dark:bg-gray-800">
+      <header className="w-full sticky top-0 z-50 bg-[#fff]">
+        <nav className="lg:px-12 py-6 dark:bg-gray-800">
           <div className="flex flex-wrap justify-between items-center">
             <Link href="/" className="flex items-center">
               <Image

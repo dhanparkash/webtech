@@ -22,68 +22,64 @@ const Clientsay = () => {
         <div className="container max-w-xl mx-auto">
           <div className="flex flex-col items-center w-full p-6 space-y-8 rounded-md lg:h-full lg:p-8 dark:bg-gray-50 dark:text-gray-800">
             <img
-              src="/clientsay.webp"
+              src="/sunny-thakur.png"
               alt=""
               className="w-20 h-20 rounded-full dark:bg-gray-500"
             />
             <blockquote className="max-w-lg text-lg italic font-medium text-center">
-              Et, dignissimos obcaecati. Recusandae praesentium doloribus vitae?
-              Rem unde atque mollitia!
+            The team was extremely responsive and helpful throughout the project.
             </blockquote>
             <div className="text-center dark:text-gray-600">
-              <p>Leroy Jenkins</p>
-              <p>CEO of Company Co.</p>
+              <p className="font-bold">Sunny Thakur</p>
+              <p>CFO Paradise</p>
             </div>
           </div>
         </div>
         <div className="container max-w-xl mx-auto">
           <div className="flex flex-col items-center w-full p-6 space-y-8 rounded-md lg:h-full lg:p-8 dark:bg-gray-50 dark:text-gray-800">
             <img
-              src="/clientsay.webp"
+              src="/shrilanka.png"
               alt=""
               className="w-20 h-20 rounded-full dark:bg-gray-500"
             />
             <blockquote className="max-w-lg text-lg italic font-medium text-center">
-              Et, dignissimos obcaecati. Recusandae praesentium doloribus vitae?
-              Rem unde atque mollitia!
+            “They delivered the project on time, and everything works smoothly.”
             </blockquote>
             <div className="text-center dark:text-gray-600">
-              <p>Leroy Jenkins</p>
-              <p>CEO of Company Co.</p>
+              <p className="font-bold">Leroy Jenkins</p>
+              <p>IT Professional, Sri lanka  </p>
             </div>
           </div>
         </div>
         <div className="container max-w-xl mx-auto">
           <div className="flex flex-col items-center w-full p-6 space-y-8 rounded-md lg:h-full lg:p-8 dark:bg-gray-50 dark:text-gray-800">
             <img
-              src="/clientsay.webp"
+              src="/mhdamir.webp"
               alt=""
               className="w-20 h-20 rounded-full dark:bg-gray-500"
             />
             <blockquote className="max-w-lg text-lg italic font-medium text-center">
-              Et, dignissimos obcaecati. Recusandae praesentium doloribus vitae?
-              Rem unde atque mollitia!
+            “The design is user-friendly, and we’ve seen an increase in user engagement since the new site launched.”
             </blockquote>
             <div className="text-center dark:text-gray-600">
-              <p>Leroy Jenkins</p>
-              <p>CEO of Company Co.</p>
+              <p className="font-bold">Mohd. Asraf</p>
+              <p>CEO of Webhelp</p>
             </div>
           </div>
         </div>
         <div className="container max-w-xl mx-auto">
           <div className="flex flex-col items-center w-full p-6 space-y-8 rounded-md lg:h-full lg:p-8 dark:bg-gray-50 dark:text-gray-800">
             <img
-              src="/clientsay.webp"
+              src="/tanuj.png"
               alt=""
               className="w-20 h-20 rounded-full dark:bg-gray-500"
             />
             <blockquote className="max-w-lg text-lg italic font-medium text-center">
-              Et, dignissimos obcaecati. Recusandae praesentium doloribus vitae?
-              Rem unde atque mollitia!
+            “Their expertise in web development helped us solve some complex problems.”
             </blockquote>
             <div className="text-center dark:text-gray-600">
-              <p>Leroy Jenkins</p>
-              <p>CEO of Company Co.</p>
+              <p className="font-bold">Tanuj  Rajpura</p>
+              <p>CEO Ideation Excellence</p>
             </div>
           </div>
         </div>
