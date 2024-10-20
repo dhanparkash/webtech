@@ -28,7 +28,7 @@ const Whychooseus = () => {
             <h2 className="mb-1 text-xl font-semibold text-white py-3 group-hover:text-black">Creativity:</h2>
             <p className="text-sm text-white group-hover:text-black">
               We believe in pushing boundaries and thinking outside the box to
-              deliver unique and engaging web experiences. Whether it's
+              deliver unique and engaging web experiences. Whether it&apos;s
               designing a sleek user interface or developing interactive
               features, our creative solutions set your brand apart.
             </p>
@@ -51,7 +51,7 @@ const Whychooseus = () => {
           <RiCustomerServiceFill size={30} className="group-hover:text-black text-white"/>
             <h2 className="mb-1 text-xl font-semibold text-white py-3 group-hover:text-black">Support:</h2>
             <p className="text-sm text-white group-hover:text-black">
-              Our commitment doesn't end at deployment. We provide ongoing
+              Our commitment doesn&apos;t end at deployment. We provide ongoing
               support and maintenance to ensure your website remains secure,
               updated, and optimized. Our responsive support team is always just
               a call or click away, ready to assist you whenever you need us.

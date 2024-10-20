@@ -47,7 +47,7 @@ const Clientsay = () => {
             </blockquote>
             <div className="text-center dark:text-gray-600">
               <p className="font-bold">Leroy Jenkins</p>
-              <p>IT Professional, Sri lanka  </p>
+              <p>IT Professional, Sri lanka </p>
             </div>
           </div>
         </div>

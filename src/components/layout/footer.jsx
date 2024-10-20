@@ -9,7 +9,7 @@ const Footer = () => {
           <Image src="/white-logo.webp" width={150} height={60} alt="logo" />
         </a>
         <p className="text-white py-4">
-            Innovating tomorrow's technology today, we empower businesses with
+            Innovating tomorrow&apos;s technology today, we empower businesses with
             cutting-edge IT solutions.
           </p>
       </div>
