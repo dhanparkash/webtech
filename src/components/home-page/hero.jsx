@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="w-full py-16 bg-[100%] bg-no-repeat" style={{backgroundImage: "url('/header-bg.webp')"}}>
+    <section className="w-full py-16 bg-cover bg-no-repeat pt-0" style={{backgroundImage: "url('/bg-banner.png')"}}>
       <div className="w-full lg:w-11/12 flex flex-wrap justify-between items-center -m-4 mx-auto my-auto">
         <div className="w-full lg:w-6/12 p-4">
           <img

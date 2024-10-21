@@ -9,7 +9,7 @@ const Whychooseus = () => {
       <h2 className="text-white text-4xl font-bold font-manrope leading-normal text-center">
         Why Choose Us
       </h2>
-      <div className="w-full lg:w-8/12 ustify-center m-auto lg:px-12 grid grid-cols-2 gap-5 py-6">
+      <div className="w-full lg:w-8/12 md:w-11/12 ustify-center m-auto lg:px-12 grid grid-cols-2 gap-5 py-6">
         <div className="h-full p-4 rounded-lg shadow-md ring-2 group hover:bg-white">
           <div>
           <GrTrophy size={30} className="group-hover:text-black text-white" />

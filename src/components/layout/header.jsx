@@ -22,12 +22,12 @@ const Header = () => {
   //   }
   return (
     <>
-      <header className="w-full sticky top-0 z-50 bg-[#fff]">
-        <nav className="lg:px-12 py-6 dark:bg-gray-800">
+      <header className="w-full sticky top-0 z-50 bg-[#111d5c]">
+        <nav className="lg:px-12 md:px-10 py-6 dark:bg-gray-800">
           <div className="flex flex-wrap justify-between items-center">
             <Link href="/" className="flex items-center">
               <Image
-                src="/black-logo.webp"
+                src="/white-logo.webp"
                 width={150}
                 height={60}
                 alt="logo"
@@ -36,7 +36,7 @@ const Header = () => {
 
             <div className="">
               <button className="block lg:hidden" onClick={toggleMenu}>
-                <IoMenuSharp size={25} />
+                <IoMenuSharp size={25} color="#fff"/>
               </button>
               <div
                 className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
@@ -49,7 +49,7 @@ const Header = () => {
                       className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
                         path === "/"
                           ? "bg-indigo-700 text-white"
-                          : "text-indigo-700"
+                          : "text-white"
                       }`}
                       aria-current="page"
                     >
@@ -62,7 +62,7 @@ const Header = () => {
                       className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
                         path === "/about-us"
                           ? "bg-indigo-700 text-white"
-                          : "text-indigo-700"
+                          : "text-white"
                       }`}
                     >
                       About Us
@@ -74,7 +74,7 @@ const Header = () => {
                       className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
                         path === "/features"
                           ? "bg-indigo-700 text-white"
-                          : "text-indigo-700"
+                          : "text-white"
                       }`}
                     >
                       Features
@@ -86,7 +86,7 @@ const Header = () => {
                       className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
                         path === "/team"
                           ? "bg-indigo-700 text-white"
-                          : "text-indigo-700"
+                          : "text-white"
                       }`}
                     >
                       Team
@@ -98,7 +98,7 @@ const Header = () => {
                       className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
                         path === "/contact-us"
                           ? "bg-indigo-700 text-white"
-                          : "text-indigo-700"
+                          : "text-white"
                       }`}
                     >
                       Contact Us

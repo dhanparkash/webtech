@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <div className="w-full lg:w-8/12  -m-2 mx-auto py-16">
-        <h2 className="text-indigo-700 text-2xl font-bold font-manrope leading-normal text-center">
+      <div className="w-full lg:w-8/12 md:w-11/12 -m-2 mx-auto py-16">
+        <h2 className="text-indigo-700 text-2xl font-bold font-manrope leading-normal text-center py-5">
           Transform Your Online Presence With Professional Web Development , SEO
           and Graphic Design Services.
         </h2>
@@ -21,7 +21,7 @@ export default function Home() {
           SEO and Graphic Design Services that are visually captivating and
           technically robust. Our approach is client-centric, ensuring that each
           project is tailored to meet your specific needs and goals. From the
-          initial concept to the final launch, we focus on delivering
+          initial concept to the final launch, we focus on deliverings
           exceptional quality and outstanding user experiences. At our core, we
           believe in the power of technology to drive success, and we strive to
           be your trusted partner in navigating the digital landscape.
