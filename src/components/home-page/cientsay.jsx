@@ -29,7 +29,7 @@ const Clientsay = () => {
 
   };
   return (
-    <div className="w-11/12 mx-auto pt-20 pb-20">
+    <div className="w-11/12 pt-20 pb-20">
       <h2 className="text-indigo-700 text-4xl font-bold font-manrope leading-normal text-center">
         What Our Client Say
       </h2>
