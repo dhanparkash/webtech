@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 import { IoMenuSharp } from "react-icons/io5";
+import { IoClose } from "react-icons/io5";
 const Header = () => {
   const path = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,7 +24,7 @@ const Header = () => {
   return (
     <>
       <header className="w-full sticky top-0 z-50 bg-[#111d5c]">
-        <nav className="lg:px-12 md:px-10 py-6 dark:bg-gray-800">
+        <nav className="lg:px-12 md:px-10 p-6 dark:bg-gray-800">
           <div className="flex flex-wrap justify-between items-center">
             <Link href="/" className="flex items-center">
               <Image
@@ -36,7 +37,9 @@ const Header = () => {
 
             <div className="">
               <button className="block lg:hidden" onClick={toggleMenu}>
-                <IoMenuSharp size={25} color="#fff"/>
+              {menuOpen ? <IoClose size={25} color="#fff"/>: <IoMenuSharp size={25} color="#fff"/>}
+
+
               </button>
               <div
                 className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"

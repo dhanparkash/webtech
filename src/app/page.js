@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <div className="w-full lg:w-8/12 md:w-11/12 -m-2 mx-auto py-16">
-        <h2 className="text-indigo-700 text-2xl font-bold font-manrope leading-normal text-center py-5">
+      <div className="w-full lg:w-8/12 md:w-11/12 -m-2 mx-auto py-16 px-5">
+        <h2 className="text-indigo-700 md:text-2xl font-bold font-manrope leading-normal text-center py-5 sm:text-[24px]">
           Transform Your Online Presence With Professional Web Development , SEO
           and Graphic Design Services.
         </h2>
@@ -27,11 +27,11 @@ export default function Home() {
           be your trusted partner in navigating the digital landscape.
         </p>
       </div>
-      <div className="py-10">
+      <div className="py-10 md-w:11/12">
         <h2 className="text-indigo-700 text-4xl font-bold font-manrope leading-normal text-center">
           Services
         </h2>
-        <div className="lg:px-12 grid grid-cols-4 gap-5 py-6">
+        <div className="lg:w-11/12 lg:px-12 grid xl:grid-cols-4 md:grid-cols-2 md:w-11/12 sm:grid-cols-1 gap-5 py-6 mx-auto px-5">
           <div className="h-full p-4 rounded-lg shadow-md dark:bg-gray-50 dark:text-gray-800">
             <div>
               <img
