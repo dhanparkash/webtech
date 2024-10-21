@@ -12,6 +12,7 @@ const Clientsay = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    arrows:false,
     responsive: [
       {
           breakpoint: 1024,
@@ -29,7 +30,7 @@ const Clientsay = () => {
 
   };
   return (
-    <div className="w-11/12 pt-20 pb-20">
+    <div className="w-11/12 pt-5 pb-20 mx-auto">
       <h2 className="text-indigo-700 text-4xl font-bold font-manrope leading-normal text-center">
         What Our Client Say
       </h2>
