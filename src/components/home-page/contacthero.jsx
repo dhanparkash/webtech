@@ -2,7 +2,7 @@ import React from "react";
 
 const Contacthero = () => {
   return (
-    <section className="bg-[#314e83] w-full py-16">
+    <section className="bg-[#314e83] w-full py-16" >
       <div className="w-full lg:w-11/12 flex flex-wrap -m-2 mx-auto">
         <div className="w-full lg:w-6/12 p-2">
           <img

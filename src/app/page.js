@@ -1,9 +1,9 @@
 import Aboutus from "@/components/home-page/about-us";
 import Hero from "@/components/home-page/hero";
 import Clientsay from "@/components/home-page/cientsay";
-import Image from "next/image";
 import Form from "@/components/home-page/form";
 import Whychooseus from "@/components/home-page/whychooseus";
+import Accordionsmain from "@/components/home-page/accordionsmain";
 
 export default function Home() {
   return (
@@ -106,6 +106,7 @@ export default function Home() {
       </div>
       <Whychooseus/>
       <Aboutus />
+      <Accordionsmain/>
       <Clientsay />
       <Form />
     </div>
