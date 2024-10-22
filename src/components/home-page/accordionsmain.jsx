@@ -6,7 +6,7 @@ const Accordionsmain = () => {
       style={{ backgroundImage: "url('/header-bg-4.jpg')" }}
     >
       <h2 className="text-white text-3xl font-bold font-manrope text-center py-2">
-        Here's how we stand out from the competition:
+        Here&apos;s how we stand out from the competition:
       </h2>
       <p className="text-center text-white py-2">
         We work collaboratively with you to understand your challenges, goals,
