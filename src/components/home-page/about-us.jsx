@@ -33,14 +33,12 @@ const Whychooseus = () => {
                                     <p className="text-gray-500 text-base font-normal leading-relaxed group-hover:text-white">Influencing Digital
                                         Landscapes Together</p>
                                 </div>
-                            <div className="w-full h-full p-3.5 rounded-xl border border-indigo-700 hover:border-gray-400 transition-all duration-400 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex hover:bg-indigo-700 group">
+                               <div className="w-full h-full p-3.5 rounded-xl border border-indigo-700 hover:border-gray-400 transition-all duration-400 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex hover:bg-indigo-700 group">
                                     <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9 group-hover:text-white">125+ Projects
                                     </h4>
                                     <p className="text-gray-500 text-base font-normal leading-relaxed group-hover:text-white">Excellence Achieved
                                         Through Success</p>
                                 </div>
-                            </div>
-                            <div className="w-full h-full grid md:grid-cols-2 gap-8">
                                 <div className="w-full h-full p-3.5 rounded-xl border border-indigo-700 hover:border-gray-400 transition-all duration-400 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex hover:bg-indigo-700 group">
                                     <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9 group-hover:text-white">26+ Awards</h4>
                                     <p className="text-gray-500 text-base font-normal leading-relaxed group-hover:text-white">Our Dedication to
@@ -51,7 +49,7 @@ const Whychooseus = () => {
                                         Clients</h4>
                                     <p className="text-gray-500 text-base font-normal leading-relaxed group-hover:text-white">Mirrors our Focus on
                                         Client Satisfaction.</p>
-                                </div>
+                                </div>                               
                             </div>
                         </div>
                     </div>
