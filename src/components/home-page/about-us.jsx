@@ -9,7 +9,7 @@ const Whychooseus = () => {
   return (
     <div className='xxl:w-10/12 md:w-11/12 sm:w-full mx-auto py-10'>
 	<h2 className="text-indigo-700 text-4xl font-bold font-manrope leading-normal text-center">About Us</h2>
-    <section className="py-10 relative xl:mr-0 lg:mr-5 mr-0">
+    <section className="xl:py-10 relative xl:mr-0 lg:mr-5 mr-0">
         <div className="w-full px-4 md:px-5 lg:px-5 mx-auto">
             <div className="w-full justify-between items-center xl:gap-12 gap-10 grid lg:grid-cols-2 grid-cols-1">
                 <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
@@ -17,7 +17,7 @@ const Whychooseus = () => {
                         <div className="flex-col justify-start lg:items-start items-center gap-4 flex">
                             <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
                                 <h2
-                                    className="text-indigo-700 text-3xl font-bold font-manrope leading-normal lg:text-start text-center">
+                                    className="text-indigo-700 text-2xl font-bold font-manrope lg:text-start text-center">
                                     The Tale of Our Achievement Story</h2>
                                 <p
                                     className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">

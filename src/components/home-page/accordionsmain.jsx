@@ -1,19 +1,18 @@
 import React from "react";
-import { Accordion, AccordionItem } from "@nextui-org/accordion";
 const Accordionsmain = () => {
   return (
     <div
       className="py-10 mb-10 px-6"
       style={{ backgroundImage: "url('/header-bg-4.jpg')" }}
     >
-      <h2 className="text-white xl:text-4xl font-bold font-manrope text-center md:text-3xl py-2">
+      <h2 className="text-white text-3xl font-bold font-manrope text-center py-2">
         Here's how we stand out from the competition:
       </h2>
       <p className="text-center text-white py-2">
         We work collaboratively with you to understand your challenges, goals,
         and vision, ensuring our strategies align with your business growth.
       </p>
-      <div className="w-full lg:w-10/12 md:w-full ustify-center m-auto lg:px-12 grid xl:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-10 py-0 px-0">
+      <div className="w-full lg:w-10/12 md:w-full ustify-center m-auto lg:px-12 grid xl:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 xl:gap-10 py-0 px-0 sm:gap-0">
         <div className="h-full p-4">
           <div className="sm:w-full w-full h-full">
             <img
