@@ -5,7 +5,7 @@ import { GoShieldCheck } from "react-icons/go";
 import { RiCustomerServiceFill } from "react-icons/ri";
 const Whychooseus = () => {
   return (
-    <div className="py-10" style={{backgroundImage: "url('/header-bg-4.jpg')"}}>
+    <div className="py-10 bg-cover" style={{backgroundImage: "url('/header-bg-4.jpg')"}}>
       <h2 className="text-white text-4xl font-bold font-manrope leading-normal text-center">
         Why Choose Us
       </h2>

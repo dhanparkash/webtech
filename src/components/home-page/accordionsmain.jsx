@@ -2,7 +2,7 @@ import React from "react";
 const Accordionsmain = () => {
   return (
     <div
-      className="py-10 mb-10 px-6"
+      className="py-10 mb-10 px-6 bg-cover"
       style={{ backgroundImage: "url('/header-bg-4.jpg')" }}
     >
       <h2 className="text-white text-3xl font-bold font-manrope text-center py-2">
