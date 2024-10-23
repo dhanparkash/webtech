@@ -14,7 +14,7 @@ export default function Home() {
           Transform Your Online Presence With Professional Web Development , SEO
           and Graphic Design Services.
         </h2>
-        <p>
+        <p className="text-black">
           We are a team of dedicated professionals committed to transforming
           your digital vision into reality. At Advik IT Solutions, with years of
           experience in the industry, we specialize in creating custom websites.
