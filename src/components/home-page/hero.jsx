@@ -22,7 +22,7 @@ const Hero = () => {
             <a
               rel="noopener noreferrer"
               href="/about-us"
-              className="px-8 py-3 text-lg font-medium rounded bg-[#2321c1] text-gray-50"
+              className="px-8 py-3 text-lg font-medium rounded bg-[#2321c1] text-gray-50 text-center"
             >
               About Us
             </a>

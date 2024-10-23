@@ -8,8 +8,8 @@ const Whychooseus = () => {
   return (
     <div className="xl:w-10/12 md:w-12/12 sm:w-full mx-auto py-10 px-10">
       <h2 className="text-indigo-700 text-4xl font-bold font-manrope leading-normal text-center">
-        About Us
-      </h2>
+        About Us 
+      </h2> 
       <section className="xl:py-10 relative xl:mr-0 lg:mr-5 mr-0">
         <div className="w-full md:px-5 lg:px-5 mx-auto">
           <div className="w-full justify-between items-center xl:gap-12 gap-10 grid lg:grid-cols-2 md:grid-cols-1">
