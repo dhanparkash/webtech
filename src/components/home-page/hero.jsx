@@ -18,7 +18,7 @@ const Hero = () => {
           <p className="mt-6 mb-8 text-white text-lg sm:mb-12">
           Advik IT Solutions is a web development brand, we deliver exceptional digital experiences tailored to your unique needs.
           </p>
-          <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+          <div className="flex flex-col space-y-4 sm:items-center sm:justify-left sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
             <a
               rel="noopener noreferrer"
               href="/about-us"
