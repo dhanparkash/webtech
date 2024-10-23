@@ -9,6 +9,9 @@ const Whychooseus = () => {
     <div>
       <div className="xl:w-10/12 md:w-12/12 sm:w-full mx-auto mt-0 py-10 px-5 mb-10">
         <section className="xl:py-10 relative xl:mr-0 lg:mr-5 mr-0">
+          <h2 class="text-indigo-700 text-4xl font-bold font-manrope leading-normal text-center pt-5">
+            About Us
+          </h2>
           <div className="w-full md:px-5 lg:px-5 mx-auto">
             <div className="w-full justify-between items-center xl:gap-12 gap-10 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 order-rev">
               <div className="w-full flex-col justify-center lg:items-start items-center gap-10">
@@ -69,10 +72,10 @@ const Whychooseus = () => {
                         </svg>
                         <div className="inner p-3.5">
                           <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9 group-hover:text-white">
-                          125+ Projects
+                            125+ Projects
                           </h4>
                           <p className="text-gray-500 text-base font-normal leading-relaxed group-hover:text-white">
-                          Excellence Achieved Through Success
+                            Excellence Achieved Through Success
                           </p>
                         </div>
                       </div>
@@ -93,10 +96,10 @@ const Whychooseus = () => {
                         </svg>
                         <div className="inner p-3.5">
                           <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9 group-hover:text-white">
-                          26+ Awards
+                            26+ Awards
                           </h4>
                           <p className="text-gray-500 text-base font-normal leading-relaxed group-hover:text-white">
-                          Our Dedication to Innovation Wins Understanding
+                            Our Dedication to Innovation Wins Understanding
                           </p>
                         </div>
                       </div>
@@ -117,13 +120,13 @@ const Whychooseus = () => {
                         </svg>
                         <div className="inner p-3.5">
                           <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9 group-hover:text-white">
-                          99% Happy Clients
+                            99% Happy Clients
                           </h4>
                           <p className="text-gray-500 text-base font-normal leading-relaxed group-hover:text-white">
-                          Mirrors our Focus on Client Satisfaction.
+                            Mirrors our Focus on Client Satisfaction.
                           </p>
                         </div>
-                      </div>                     
+                      </div>
                     </div>
                   </div>
                 </div>

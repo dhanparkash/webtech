@@ -18,6 +18,7 @@ const Aboutushero = () => {
 			</ul>
 		</div>
       <div className="w-full lg:w-11/12 grid md:grid-cols-2 justify-between items-center -m-4 mx-auto my-auto">
+      
         <div className="w-full p-10 animate-pulse">
           <img
             src="/hero.png"

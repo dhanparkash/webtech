@@ -17,20 +17,6 @@ const Form = () => {
 
   return (
     <section className="py-10 bg-cover" style={{ backgroundImage: "url('/map-contact.png')" }}>
-		      <div className="area">
-			<ul className="circles">
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-		</div>
 	<div className="grid max-w-6xl grid-cols-1 px-6  py-10 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
 		<div className="py-6 md:py-0 md:px-6">
         <h2 className="text-white text-4xl text-left">Get In Touch</h2>
