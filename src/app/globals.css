@@ -25,19 +25,6 @@ body {
   }
 }
 
-@media screen and (max-width:1024px){
-  .media-img {
-    width: 100%;
-    margin: 0 auto;
-    align-items: flex-start;
-    justify-content: center!important;
-}
-.order-rev {
-  display: flex;
-  flex-direction: column-reverse;
-}
-}
-
 @keyframes bounce {
   0%, 100% {
     transform: translateY(-10%);
@@ -127,7 +114,7 @@ body {
 	right: 0;
 	height: 100vh;
 	position: absolute;
-	z-index: 9999;
+	z-index: 1111;
 }
 
 .circles {
@@ -241,3 +228,16 @@ body {
 /*
 -- End BackGround Animation 
 */
+
+@media screen and (max-width:992px){
+	.media-img {
+	  width: 100%;
+	  margin: 0 auto;
+	  align-items: flex-start;
+	  justify-content: center!important;
+  }
+  .order-rev {
+	display: flex;
+	flex-direction: column-reverse;
+  }
+  }
