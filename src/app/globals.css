@@ -122,7 +122,9 @@ body {
 -- Start BackGround Animation 
 */
 .area {
-	width: 95%;
+	width: 100%;
+	left: 0;
+	right: 0;
 	height: 100vh;
 	position: absolute;
 	z-index: 9999;
