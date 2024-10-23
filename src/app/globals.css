@@ -31,4 +31,7 @@ body {
     width: 100%;
     top:50px;
 }
+.sm\:order-2 {
+  order: 2;
+}
 }

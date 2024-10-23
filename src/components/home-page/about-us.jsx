@@ -13,7 +13,7 @@ const Whychooseus = () => {
       <section className="xl:py-10 relative xl:mr-0 lg:mr-5 mr-0">
         <div className="w-full md:px-5 lg:px-5 mx-auto">
           <div className="w-full justify-between items-center xl:gap-12 gap-10 grid lg:grid-cols-2 md:grid-cols-1">
-            <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
+            <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex lg:order-1 sm:order-2">
               <div className="w-full flex-col justify-center items-start gap-8 flex">
                 <div className="flex-col justify-start lg:items-start items-center gap-4 flex">
                   <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
