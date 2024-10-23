@@ -6,8 +6,8 @@ import React from "react";
 
 const Whychooseus = () => {
   return (
-    <div className="xl:w-10/12 md:w-12/12 sm:w-full mx-auto mt-5 px-5 mb-10">
-      <h2 className="text-indigo-700 text-4xl font-bold font-manrope leading-normal text-center">
+    <div className="xl:w-10/12 md:w-12/12 sm:w-full mx-auto mt-0 py-10 px-5 mb-10">
+      <h2 className="text-indigo-700 text-4xl font-bold font-manrope leading-normal text-center py-5">
         About Us 
       </h2> 
       <section className="xl:py-10 relative xl:mr-0 lg:mr-5 mr-0">
