@@ -6,14 +6,14 @@ import React from "react";
 
 const Whychooseus = () => {
   return (
-    <div className="xl:w-10/12 md:w-12/12 sm:w-full mx-auto py-10 px-10">
+    <div className="xl:w-10/12 md:w-12/12 sm:w-full mx-auto mt-5 px-5 mb-10">
       <h2 className="text-indigo-700 text-4xl font-bold font-manrope leading-normal text-center">
         About Us 
       </h2> 
       <section className="xl:py-10 relative xl:mr-0 lg:mr-5 mr-0">
         <div className="w-full md:px-5 lg:px-5 mx-auto">
-          <div className="w-full justify-between items-center xl:gap-12 gap-10 grid lg:grid-cols-2 md:grid-cols-1">
-            <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex lg:order-1 sm:order-2">
+          <div className="w-full justify-between items-center xl:gap-12 gap-10 grid lg:grid-cols-2 md:grid-cols-1 order-rev ">
+            <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
               <div className="w-full flex-col justify-center items-start gap-8 flex">
                 <div className="flex-col justify-start lg:items-start items-center gap-4 flex">
                   <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
