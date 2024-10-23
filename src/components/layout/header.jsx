@@ -51,7 +51,7 @@ const Header = () => {
                       href="/"
                       className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
                         path === "/"
-                          ? "bg-indigo-700 text-white"
+                          ? "bg-[#8842f4] text-white"
                           : "text-white"
                       }`}
                       aria-current="page"
@@ -64,7 +64,7 @@ const Header = () => {
                       href="/about-us"
                       className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
                         path === "/about-us"
-                          ? "bg-indigo-700 text-white"
+                          ? "bg-[#8842f4] text-white"
                           : "text-white"
                       }`}
                     >
@@ -76,7 +76,7 @@ const Header = () => {
                       href="/features"
                       className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
                         path === "/features"
-                          ? "bg-indigo-700 text-white"
+                          ? "bg-[#8842f4] text-white"
                           : "text-white"
                       }`}
                     >
@@ -88,7 +88,7 @@ const Header = () => {
                       href="/team"
                       className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
                         path === "/team"
-                          ? "bg-indigo-700 text-white"
+                          ? "bg-[#8842f4] text-white"
                           : "text-white"
                       }`}
                     >
@@ -100,7 +100,7 @@ const Header = () => {
                       href="/contact-us"
                       className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
                         path === "/contact-us"
-                          ? "bg-indigo-700 text-white"
+                          ? "bg-[#8842f4] text-white"
                           : "text-white"
                       }`}
                     >
@@ -129,7 +129,7 @@ const Header = () => {
                       href="/"
                       className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
                         path === "/"
-                          ? "bg-indigo-700 text-white"
+                          ? "bg-[#8842f4] text-white"
                           : "text-black"
                       }`}
                       aria-current="page"
@@ -142,7 +142,7 @@ const Header = () => {
                       href="/about-us"
                       className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
                         path === "/about-us"
-                          ? "bg-indigo-700 text-white"
+                          ? "bg-[#8842f4] text-white"
                           : "text-black"
                       }`}
                     >
@@ -154,7 +154,7 @@ const Header = () => {
                       href="/features"
                       className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
                         path === "/features"
-                          ? "bg-indigo-700 text-white"
+                          ? "bg-[#8842f4] text-white"
                           : "text-black"
                       }`}
                     >
@@ -166,7 +166,7 @@ const Header = () => {
                       href="/team"
                       className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
                         path === "/team"
-                          ? "bg-indigo-700 text-white"
+                          ? "bg-[#8842f4] text-white"
                           : "text-black"
                       }`}
                     >
@@ -178,7 +178,7 @@ const Header = () => {
                       href="/contact-us"
                       className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
                         path === "/contact-us"
-                          ? "bg-indigo-700 text-white"
+                          ? "bg-[#8842f4] text-white"
                           : "text-black"
                       }`}
                     >
