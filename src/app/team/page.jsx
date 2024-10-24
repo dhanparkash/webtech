@@ -1,12 +1,12 @@
+import Teamhero from '@/components/home-page/teamhero'
 import React from 'react'
 
 const Team = () => {
   return (
-    <section class="py-24 ">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <section class="py-24 pt-0">
+ <Teamhero/>       
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-10">
           <div class="mb-12">
-              <h2 class="font-manrope text-5xl text-center font-bold text-gray-900 mb-6">Meet the brains</h2>
-              <p class="text-lg text-gray-500 text-center">These people work on making our product best.</p>
           </div>
           <div class="flex flex-wrap justify-center gap-y-14 max-w-3xl mx-auto lg:max-w-full ">
               <div class="group block text-center lg:w-1/5 sm:w-1/3 min-[450px]:w-1/2 w-full">

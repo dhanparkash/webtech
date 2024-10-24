@@ -60,7 +60,11 @@ const Form = () => {
 				<textarea rows="3" className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100" {...register("message")}></textarea>
                 {errors.message && <p>{errors.message.message}</p>}
 			</label>
-			<button type="submit" className="flex-start px-8 py-3 text-lg rounded bg-[#192fc8] text-white p-2 hover:bg-white hover:text-black">Submit</button>
+			<button class="relative px-6 py-3 font-bold text-white rounded-lg group input" type="submit" >
+<span class="absolute inset-0 w-full h-full transition duration-300 transform -translate-x-1 -translate-y-1 bg-purple-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0"></span>
+<span class="absolute inset-0 w-full h-full transition duration-300 transform translate-x-1 translate-y-1 bg-pink-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0 mix-blend-screen"></span>
+<span class="relative text-center">Submit</span>
+</button>			
 		</form>
 	</div>
 </section>

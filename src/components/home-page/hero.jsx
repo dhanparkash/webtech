@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="w-full py-16 bg-no-repeat pt-0 bg-cover" style={{backgroundImage: "url('/slider-processing.webp')"}}>
+    <section className="w-full py-16 bg-no-repeat pt-0 bg-cover relaitve" style={{backgroundImage: "url('/slider-processing.webp')"}}>
       <div className="area">
 			<ul className="circles">
 				<li></li>
@@ -17,7 +17,7 @@ const Hero = () => {
 				<li></li>
 			</ul>
 		</div>
-      <div className="w-full lg:w-11/12 grid md:grid-cols-2 justify-between items-center -m-4 mx-auto my-auto">
+      <div className="w-full lg:w-11/12 grid md:grid-cols-2 justify-between items-center -m-4 mx-auto my-auto relative z-10">
         <div className="w-full p-4">
           <img
             src="/banner-image.webp"
@@ -33,13 +33,11 @@ const Hero = () => {
           Advik IT Solutions is a web development brand, we deliver exceptional digital experiences tailored to your unique needs.
           </p>
           <div className="flex flex-col space-y-4 sm:items-center sm:justify-left sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-            <a
-              rel="noopener noreferrer"
-              href="/about-us"
-              className="px-8 py-3 text-lg font-medium rounded bg-[#8842f4] text-gray-50 text-center"
-            >
-              About Us
-            </a>
+          <a href="/about-us" class="relative px-6 py-3 font-bold text-white rounded-lg group">
+<span class="absolute inset-0 w-full h-full transition duration-300 transform -translate-x-1 -translate-y-1 bg-purple-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0"></span>
+<span class="absolute inset-0 w-full h-full transition duration-300 transform translate-x-1 translate-y-1 bg-pink-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0 mix-blend-screen"></span>
+<span class="relative">About Us</span>
+</a>
           </div>
         </div>
       </div>

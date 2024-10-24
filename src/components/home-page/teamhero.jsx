@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Aboutushero = () => {
+const Teamhero = () => {
   return (
 <section className="w-full bg-cover bg-no-repeat py-[50px] relative" style={{backgroundImage: "url('/slider-processing.webp')"}}>
 <div className="area">
@@ -19,16 +19,16 @@ const Aboutushero = () => {
 		</div>
       <div className="w-full lg:w-11/12 grid md:grid-cols-2 justify-between items-center -m-4 mx-auto my-auto relative z-10">
       
-        <div className="w-full p-10 animate-pulse">
+        <div className="w-full p-10">
           <img
-            src="/hero.png"
+            src="/teamhero-removebg-preview.png"
             alt=""
             className="object-contain xl:h-[400px] w-full text-center md:h-[400px] sm:h-[400px]"
           />
         </div>
         <div className="w-full p-4">
           <h1 className="text-3xl xl:text-6xl lg:text-4xl md:text-3xl sm:text-2xl text-white font-bold leading-none text-left">
-          Who We Are
+          Meet the brains
           </h1>
           <p className="mt-6 mb-8 text-white text-lg sm:mb-12">
           We specializes in providing technology-based services, solutions. Our companies offer a wide range of services, including web development, web designing, system integration, network infrastructure, and cloud computing.
@@ -46,4 +46,4 @@ const Aboutushero = () => {
   )
 }
 
-export default Aboutushero
+export default Teamhero

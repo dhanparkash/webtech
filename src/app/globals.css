@@ -112,9 +112,9 @@ body {
 	width: 100%;
 	left: 0;
 	right: 0;
-	height: 100vh;
+	height: 100%;
 	position: absolute;
-	z-index: 1111;
+	z-index: 1;
 }
 
 .circles {
@@ -241,3 +241,7 @@ body {
 	flex-direction: column-reverse;
   }
   }
+
+  section {
+    position: relative;
+}

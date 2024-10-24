@@ -73,14 +73,14 @@ const Header = () => {
                   </li>
                   <li>
                     <Link
-                      href="/features"
+                      href="/services"
                       className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
-                        path === "/features"
+                        path === "/services"
                           ? "bg-[#8842f4] text-white"
                           : "text-white"
                       }`}
                     >
-                      Features
+                      Services
                     </Link>
                   </li>
                   <li>
@@ -151,14 +151,14 @@ const Header = () => {
                   </li>
                   <li>
                     <Link
-                      href="/features"
+                      href="/services"
                       className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
-                        path === "/features"
+                        path === "/services"
                           ? "bg-[#8842f4] text-white"
                           : "text-black"
                       }`}
                     >
-                      Features
+                      Services
                     </Link>
                   </li>
                   <li>

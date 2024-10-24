@@ -5,7 +5,7 @@ import { GoShieldCheck } from "react-icons/go";
 import { RiCustomerServiceFill } from "react-icons/ri";
 const Whychooseus = () => {
   return (
-    <div className="py-10 bg-cover" style={{backgroundImage: "url('/header-bg-4.jpg')"}}>
+    <div className="py-10 bg-cover relative" style={{backgroundImage: "url('/header-bg-4.jpg')"}}>
             <div className="area">
 			<ul className="circles">
 				<li></li>
@@ -23,7 +23,7 @@ const Whychooseus = () => {
       <h2 className="text-white text-4xl font-bold font-manrope leading-normal text-center">
         Why Choose Us
       </h2>
-      <div className="w-full lg:w-8/12 md:w-11/12 ustify-center m-auto lg:px-12 grid xl:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-5 py-6 px-5">
+      <div className="w-full lg:w-8/12 md:w-11/12 ustify-center m-auto lg:px-12 grid xl:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-5 py-6 px-5 relative z-10">
         <div className="h-full p-4 rounded-lg shadow-md ring-2 group hover:bg-white">
           <div>
           <GrTrophy size={30} className="group-hover:text-black text-white" />

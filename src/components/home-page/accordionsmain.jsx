@@ -2,10 +2,10 @@ import React from "react";
 const Accordionsmain = () => {
   return (
     <div
-      className="py-10 mb-10 px-6 bg-cover"
+      className="py-10 mb-10 px-6 bg-cover relative"
       style={{ backgroundImage: "url('/header-bg-4.jpg')" }}
     >
-            <div className="area">
+      <div className="area">
 			<ul className="circles">
 				<li></li>
 				<li></li>
@@ -26,7 +26,7 @@ const Accordionsmain = () => {
         We work collaboratively with you to understand your challenges, goals,
         and vision, ensuring our strategies align with your business growth.
       </p>
-      <div className="w-full lg:w-10/12 md:w-full item-center itrm-center m-auto lg:px-12 grid xl:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 xl:gap-10 py-0 px-0 sm:gap-0">
+      <div className="w-full lg:w-10/12 md:w-full item-center itrm-center m-auto lg:px-12 grid xl:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 xl:gap-10 py-0 px-0 sm:gap-0 relative z-10">
         <div className="h-full p-4">
           <div className="sm:w-full w-full h-full">
             <img
