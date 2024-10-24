@@ -22,8 +22,8 @@ const Service = () => {
 
         <div className="-mx-4 flex flex-wrap">
           <ServiceCard
-            title="Refreshing Design"
-            details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+            title="Impresive Design"
+            details="Elevate your brand with modern, clean, and captivating designs that inspire and engage. We craft visuals that leave a lasting impression."
             icon={
               <svg
                 width="36"
@@ -40,8 +40,8 @@ const Service = () => {
             }
           />
           <ServiceCard
-            title="Based on Tailwind CSS"
-            details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+            title="Tailwind CSS Layout"
+            details="Harness the power of Tailwind CSS to create responsive, fast, and visually stunning designs with minimal effort and maximum flexibility. Streamlined for a seamless user experience."
             icon={
               <svg
                 width="36"
@@ -60,8 +60,8 @@ const Service = () => {
             }
           />
           <ServiceCard
-            title="100+ Components"
-            details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+            title="Web Development"
+            details="Get the best version of your domain in Webs Pages in different plateform like Wordpress, PHP, Shopify, Wix, Webflow, React, etc."
             icon={
               <svg
                 width="36"
@@ -91,7 +91,7 @@ const Service = () => {
           />
           <ServiceCard
             title="Speed Optimized"
-            details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+            details="Boost your site's performance with lightning-fast load times and optimized code. Ensure a smooth, efficient experience for all your visitors."
             icon={
               <svg
                 width="36"
@@ -113,7 +113,7 @@ const Service = () => {
           />
           <ServiceCard
             title="Fully Customizable"
-            details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+            details="Tailor every aspect of your website to fit your brand's unique needs. Enjoy complete flexibility with designs, features, and functionality made just for you."
             icon={
               <svg
                 width="36"
@@ -131,7 +131,7 @@ const Service = () => {
           />
           <ServiceCard
             title="Regular Updates"
-            details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+            details="Stay ahead with continuous updates to your website's scripts and technology, ensuring top-notch performance, security, and compatibility. Always up-to-date for peak efficiency."
             icon={
               <svg
                 width="36"
