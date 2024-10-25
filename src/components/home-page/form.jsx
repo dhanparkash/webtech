@@ -67,17 +67,17 @@ const Form = () => {
 			<label className="block">
 				<span className="mb-1 text-white">Full name</span>
 				<input  placeholder="Enter Name" name="name" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 p-2" {...register("name")} />
-				{errors.name && <p>{errors.name.message}</p>}
+				{errors.name && <p className='text-red-700 py-1'>{errors.name.message}</p>}
 			</label>
 			<label className="block">
 				<span className="mb-1 text-white">Email address</span>
 				<input placeholder="Enter Email Address" name="email"  type="" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 p-2" {...register("email")}/>
-				{errors.email && <p>{errors.email.message}</p>}
+				{errors.email && <p className='text-red-700 py-1'>{errors.email.message}</p>}
 			</label>
 			<label className="block">
 				<span className="mb-1 text-white">Message</span>
 				<textarea rows="3" className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100" name="message" {...register("message")}></textarea>
-				{errors.message && <p>{errors.message.message}</p>}
+				{errors.message && <p className='text-red-700 py-1'>{errors.message.message}</p>}
 			</label>
 			<button class="relative px-6 py-3 font-bold text-white rounded-lg group input" type="submit" >
 <span class="absolute inset-0 w-full h-full transition duration-300 transform -translate-x-1 -translate-y-1 bg-purple-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0"></span>
