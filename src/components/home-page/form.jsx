@@ -3,20 +3,28 @@ import React from 'react'
 import { useForm } from 'react-hook-form';
 import { zodResolver } from "@hookform/resolvers/zod"
 import { z } from "zod";
+import emailjs from '@emailjs/browser';
+
+const SERVICE_ID = "service_1hsz8d8";
+const TEMPLATE_ID = "template_848ja2v";
+const PUBLIC_KEY = "zCJ5YT7K4MM6zfx_W";
+
 const Form = () => {
-    const schemaValidation = z.object({
-        firstname: z.string().min(2, "name must be at least 2 characters long"),
-        email: z.string().email().min(2, "Email must be at least 2 characters long"),
-        message: z.string().min(25,"chataccter should be 25 minimum")
-  });  
-    const {
-        register,
-        handleSubmit,
-        formState: { errors }, } = useForm({  mode: "onSubmit", resolver: zodResolver(schemaValidation) });  
-        const onSubmit = (data) => console.log(data)    
+		const handleOnSubmit = (e) => {
+			e.preventDefault();
+			emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY)
+			  .then((result) => {
+				console.log(result.text);
+				alert('Message Sent Successfully')
+			  }, (error) => {
+				console.log(error.text);
+				alert('Something went wrong!')
+			  });
+			e.target.reset()
+		  };
 
   return (
-    <section className="py-10 bg-cover" style={{ backgroundImage: "url('/map-contact.png')" }}>
+		<section className="py-10 bg-cover" style={{ backgroundImage: "url('/map-contact.png')" }}>
 	<div className="grid max-w-6xl grid-cols-1 px-6  py-10 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
 		<div className="py-6 md:py-0 md:px-6">
         <h2 className="text-white text-4xl text-left">Get In Touch</h2>
@@ -43,22 +51,18 @@ const Form = () => {
 				</p>
 			</div>
 		</div>
-        <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col py-6 space-y-6 md:py-0 md:px-6" >
-		
+        <form onSubmit={handleOnSubmit} className="flex flex-col py-6 space-y-6 md:py-0 md:px-6" name="Contact US">
 			<label className="block">
 				<span className="mb-1 text-white">Full name</span>
-				<input  placeholder="Leroy Jenkins" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 p-2" {...register("firstname")} />
-                {errors.firstname && <p>{errors.firstname.message}</p>}
+				<input  placeholder="Enter Name" name="name" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 p-2"  required/>
 			</label>
 			<label className="block">
 				<span className="mb-1 text-white">Email address</span>
-				<input placeholder="leroy@jenkins.com" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 p-2" {...register("email")}/>
-                {errors.email && <p>{errors.email.message}</p>}
+				<input placeholder="Enter Email Address" name="email"  type="" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 p-2" required/>
 			</label>
 			<label className="block">
 				<span className="mb-1 text-white">Message</span>
-				<textarea rows="3" className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100" {...register("message")}></textarea>
-                {errors.message && <p>{errors.message.message}</p>}
+				<textarea rows="3" className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100" name="message"></textarea>
 			</label>
 			<button class="relative px-6 py-3 font-bold text-white rounded-lg group input" type="submit" >
 <span class="absolute inset-0 w-full h-full transition duration-300 transform -translate-x-1 -translate-y-1 bg-purple-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0"></span>
@@ -70,5 +74,4 @@ const Form = () => {
 </section>
   )
 }
-
 export default Form
