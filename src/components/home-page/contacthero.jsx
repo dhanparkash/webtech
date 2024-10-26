@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Form } from "react-hook-form";
 const Contacthero = () => {
   return (
     <section className="bg-[#314e83] w-full py-16" >
@@ -40,6 +40,7 @@ const Contacthero = () => {
           </div>
         </div>
       </div>
+      <Form/>
     </section>
   );
 };
