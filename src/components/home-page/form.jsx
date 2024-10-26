@@ -66,13 +66,13 @@ const Form = () => {
         <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col py-6 space-y-6 md:py-0 md:px-6" name="Contact US" id="myForm" >
 			<label className="block">
 				<span className="mb-1 text-white">Full name</span>
-				<input  placeholder="Enter Name" name="name" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 p-2" {...register("name")} />
-				{errors.name && <p className='text-red-700 py-1'>{errors.name.message}</p>}
+				<input  placeholder="Leroy Jenkins" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 p-2" {...register("firstname")} />
+                {errors.firstname && <p>{errors.firstname.message}</p>}
 			</label>
 			<label className="block">
 				<span className="mb-1 text-white">Email address</span>
-				<input placeholder="Enter Email Address" name="email"  type="" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 p-2" {...register("email")}/>
-				{errors.email && <p className='text-red-700 py-1'>{errors.email.message}</p>}
+				<input placeholder="leroy@jenkins.com" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 p-2" {...register("email")}/>
+                {errors.email && <p>{errors.email.message}</p>}
 			</label>
 			<label className="block">
 				<span className="mb-1 text-white">Message</span>
