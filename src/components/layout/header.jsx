@@ -106,7 +106,7 @@ const Header = () => {
       <div>
         <div
           id="drawer-navigation"
-          className={`bg-white fixed top-20 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform ${
+          className={`bg-[#111d5c] fixed top-20 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform ${
             menuOpen ? "translate-x-0" : "-translate-x-full"
           } w-64 dark:bg-gray-800`}
           tabIndex="-1"
@@ -119,7 +119,7 @@ const Header = () => {
                   href="/"
                   onClick={handleMenuItemClick}
                   className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
-                    path === "/" ? "bg-[#8842f4] text-white" : "text-black"
+                    path === "/" ? "bg-[#8842f4] text-white" : "text-white"
                   }`}
                   aria-current="page"
                 >
@@ -131,7 +131,7 @@ const Header = () => {
                   href="/about-us"
                   onClick={handleMenuItemClick}
                   className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
-                    path === "/about-us" ? "bg-[#8842f4] text-white" : "text-black"
+                    path === "/about-us" ? "bg-[#8842f4] text-white" : "text-white"
                   }`}
                 >
                   About Us
@@ -142,7 +142,7 @@ const Header = () => {
                   href="/services"
                   onClick={handleMenuItemClick}
                   className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
-                    path === "/services" ? "bg-[#8842f4] text-white" : "text-black"
+                    path === "/services" ? "bg-[#8842f4] text-white" : "text-white"
                   }`}
                 >
                   Services
@@ -153,7 +153,7 @@ const Header = () => {
                   href="/team"
                   onClick={handleMenuItemClick}
                   className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
-                    path === "/team" ? "bg-[#8842f4] text-white" : "text-black"
+                    path === "/team" ? "bg-[#8842f4] text-white" : "text-white"
                   }`}
                 >
                   Team
@@ -164,7 +164,7 @@ const Header = () => {
                   href="/contact-us"
                   onClick={handleMenuItemClick}
                   className={`block py-2 pr-4 pl-3 rounded lg:text-primary-700 dark:text-white ${
-                    path === "/contact-us" ? "bg-[#8842f4] text-white" : "text-black"
+                    path === "/contact-us" ? "bg-[#8842f4] text-white" : "text-white"
                   }`}
                 >
                   Contact Us
