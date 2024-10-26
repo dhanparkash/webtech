@@ -77,7 +77,7 @@ const Form = () => {
 <span class="absolute inset-0 w-full h-full transition duration-300 transform translate-x-1 translate-y-1 bg-pink-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0 mix-blend-screen"></span>
 <span class="relative text-center">Submit</span>
 </button>	
-{successMessage && <p className='text-green-500 mt-4'>{successMessage}</p>} {/* Success message */}	
+{successMessage && <p className='text-green-500 mt-4 text-center'>{successMessage}</p>} {/* Success message */}	
         </form>
 
       </div>
