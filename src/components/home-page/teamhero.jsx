@@ -34,7 +34,7 @@ const Teamhero = () => {
           We specializes in providing technology-based services, solutions. Our companies offer a wide range of services, including web development, web designing, system integration, network infrastructure, and cloud computing.
           </p>
           <div className="flex flex-col space-y-4 sm:items-center sm:justify-left sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-          <a href="/contact-us" class="relative px-6 py-3 font-bold text-white rounded-lg group">
+          <a href="/contact-us" class="relative px-6 py-3 font-bold text-white text-center rounded-lg group">
 <span class="absolute inset-0 w-full h-full transition duration-300 transform -translate-x-1 -translate-y-1 bg-purple-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0"></span>
 <span class="absolute inset-0 w-full h-full transition duration-300 transform translate-x-1 translate-y-1 bg-pink-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0 mix-blend-screen"></span>
 <span class="relative">Get in Touch</span>

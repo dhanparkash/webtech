@@ -1,5 +1,6 @@
 "use client";
 import React from 'react';
+import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
@@ -19,12 +20,12 @@ const Form = () => {
   const { register, handleSubmit, formState: { errors }, reset } = useForm({
     resolver: zodResolver(formSchema),
   });
-
+  const [successMessage, setSuccessMessage] = useState("");
   const onSubmit = (data) => {
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, "#myForm", PUBLIC_KEY)
       .then((result) => {
         console.log(result.text);
-        alert('Message Sent Successfully');
+		setSuccessMessage('Message Sent Successfully');
         reset(); // Reset the form fields after sending the email
       })
       .catch((error) => {
@@ -71,12 +72,14 @@ const Form = () => {
             <textarea rows="3" className="block w-full rounded-md focus:ring focus:ring-opacity-75 dark:bg-gray-100 p-2" {...register("message")}></textarea>
             {errors.message && <p className='text-red-700 py-1'>{errors.message.message}</p>}
           </label>
-		  <button class="relative px-6 py-3 font-bold text-white rounded-lg group input" type="submit" >
+		  <button class="relative px-6 py-3 font-bold text-white text-center rounded-lg group input" type="submit" >
 <span class="absolute inset-0 w-full h-full transition duration-300 transform -translate-x-1 -translate-y-1 bg-purple-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0"></span>
 <span class="absolute inset-0 w-full h-full transition duration-300 transform translate-x-1 translate-y-1 bg-pink-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0 mix-blend-screen"></span>
 <span class="relative text-center">Submit</span>
-</button>		
+</button>	
+{successMessage && <p className='text-green-500 mt-4'>{successMessage}</p>} {/* Success message */}	
         </form>
+
       </div>
     </section>
   );

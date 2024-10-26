@@ -33,7 +33,7 @@ const Hero = () => {
           Advik IT Solutions is a web development brand, we deliver exceptional digital experiences tailored to your unique needs.
           </p>
           <div className="flex flex-col space-y-4 sm:items-center sm:justify-left sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-          <a href="/about-us" class="relative px-6 py-3 font-bold text-white rounded-lg group">
+          <a href="/about-us" class="relative px-6 py-3 font-bold text-white text-center rounded-lg group">
 <span class="absolute inset-0 w-full h-full transition duration-300 transform -translate-x-1 -translate-y-1 bg-purple-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0"></span>
 <span class="absolute inset-0 w-full h-full transition duration-300 transform translate-x-1 translate-y-1 bg-pink-800 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0 mix-blend-screen"></span>
 <span class="relative">About Us</span>
