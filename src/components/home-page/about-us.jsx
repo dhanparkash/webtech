@@ -12,7 +12,7 @@ const Whychooseus = () => {
           <h2 class="text-indigo-700 text-4xl font-bold font-manrope leading-normal text-center pt-5">
             About Us
           </h2>
-          <div className="w-full md:px-5 lg:px-5 mx-auto">
+          <div className="w-full md:px-5 lg:px-5 mx-auto p-4">
             <div className="w-full justify-between items-center xl:gap-12 gap-10 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 order-rev">
               <div className="w-full flex-col justify-center lg:items-start items-center gap-10">
                 <div className="w-full flex-col justify-center items-start gap-8 flex">
