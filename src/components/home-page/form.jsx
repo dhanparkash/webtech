@@ -47,12 +47,12 @@ const Form = () => {
 		
 			<label className="block">
 				<span className="mb-1 text-white">Full name</span>
-				<input  placeholder="Leroy Jenkins" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 p-2" {...register("firstname")} />
+				<input  placeholder="Entr Your Name" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 p-2" {...register("firstname")} />
                 {errors.firstname && <p>{errors.firstname.message}</p>}
 			</label>
 			<label className="block">
 				<span className="mb-1 text-white">Email address</span>
-				<input placeholder="leroy@jenkins.com" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 p-2" {...register("email")}/>
+				<input placeholder="Enter your email" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 p-2" {...register("email")}/>
                 {errors.email && <p>{errors.email.message}</p>}
 			</label>
 			<label className="block">
