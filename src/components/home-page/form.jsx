@@ -59,7 +59,7 @@ const Form = () => {
             </p>
             <p className="flex items-center">
               {/* SVG and Email */}
-              <span className='text-white flex items-center gap-2'><MdOutlineMail /> info@advikitsolution.com</span>
+              <span className='text-white flex items-center gap-2'><MdOutlineMail /> info@advikitsolutions.com</span>
             </p>
           </div>
         </div>
