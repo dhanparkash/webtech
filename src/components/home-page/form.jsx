@@ -76,7 +76,7 @@ const Form = () => {
 			</label>
 			<label className="block">
 				<span className="mb-1 text-white">Message</span>
-				<textarea rows="3" className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100" name="message" {...register("message")}></textarea>
+				<textarea rows="3" className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100 p-2" name="message" {...register("message")}></textarea>
 				{errors.message && <p className='text-red-700 py-1'>{errors.message.message}</p>}
 			</label>
 			<button class="relative px-6 py-3 font-bold text-white rounded-lg group input" type="submit" >
