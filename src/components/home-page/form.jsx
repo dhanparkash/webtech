@@ -5,6 +5,10 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import emailjs from '@emailjs/browser';
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdOutlineMail } from "react-icons/md";
+import { FiMapPin } from "react-icons/fi";
+
 
 const SERVICE_ID = "service_1hsz8d8";
 const TEMPLATE_ID = "template_848ja2v";
@@ -47,15 +51,15 @@ const Form = () => {
             {/* Contact Details */}
             <p className="flex items-center">
               {/* SVG and Address */}
-              <span className='text-white'>Fake address, 9999 City</span>
+              <span className='text-white flex items-center gap-2'><FiMapPin /> Plot No. 2244, Mohali Tower, Punjab, 160071</span>
             </p>
             <p className="flex items-center">
               {/* SVG and Phone */}
-              <span className='text-white'>123456789</span>
+              <span className='text-white flex items-center gap-2'><FaPhoneAlt /> 123456789</span>
             </p>
             <p className="flex items-center">
               {/* SVG and Email */}
-              <span className='text-white'>contact@business.com</span>
+              <span className='text-white flex items-center gap-2'><MdOutlineMail /> info@advikitsolution.com</span>
             </p>
           </div>
         </div>
