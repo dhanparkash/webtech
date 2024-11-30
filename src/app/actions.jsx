@@ -23,7 +23,6 @@ export async function submitContactForm(data){
         if(messageIdExists){
           return {success: true,  message: "Your message has been sent!"};
         }
-    
 
           return {success: false, message: 'There was an error sending your message.' };
         
